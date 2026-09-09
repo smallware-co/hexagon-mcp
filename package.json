@@ -1,0 +1,25 @@
+{
+  "name": "hexagon-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for querying Google Search Console, GA4, AdSense, Keyword Planner, and Reddit rising posts. BYOK, no credentials shipped or stored by this package.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "hexagon-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "author": "Smallware Co.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "googleapis": "^144.0.0",
+    "google-ads-api": "^18.0.0",
+    "snoowrap": "^1.23.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

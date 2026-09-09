@@ -4,7 +4,7 @@ A read-only MCP server that connects an AI assistant directly to six data points
 
 Six sources, six tools, one server. Hence the name.
 
-Built by [Smallware Co.](https://smallware.co)
+Built by [Smallware Co.](https://github.com/smallware-co)
 
 ## What it does
 
